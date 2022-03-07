@@ -120,6 +120,10 @@ main {
 @media only screen and (min-width: 481px) and (max-width: 2500px) {
   /* Pagina Inicio */
   /* Decoracion header */
+  .margenLogoTitulo {
+    margin-left: 25px; }
+  .margenNavbar {
+    margin-right: 50px; }
   .navBarDeco {
     background-image: url(../imagenes/fondoNav.jpg);
     min-height: 10vh;
@@ -134,7 +138,11 @@ main {
     display: flex;
     flex-direction: column;
     margin: 1%;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 3%; }
+  .margenMarcaFooter {
+    margin-top: 6px; }
   /* Pagina Nosotros */
   .formatoNosotros {
     width: 80%;
