@@ -1,0 +1,231 @@
+/* MOBILE */
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  /* Pagina Inicio */
+  /* Decoracion header */
+  .navBarDeco {
+    background-image: url(../imagenes/fondoNav.jpg);
+    min-height: 10vh;
+    background-position: center;
+    background-size: 3000px;
+  }
+
+  .carousel-inner {
+    max-height: 40vh;
+    overflow: hidden;
+    position: relative;
+    bottom: 140%;
+  }
+
+  .articulos {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    padding: 3%;
+  }
+
+  /* Pagina Nosotros */
+  .formatoNosotros {
+    width: 50%;
+    padding-top: 3%;
+  }
+
+  /* Pagina Contacto */
+
+  .botonContacto {
+    @include botones;
+  }
+  .divFormContacto {
+    width: 100%;
+    margin: 0;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 0;
+  }
+
+  .formContacto {
+    padding: 0%;
+    margin: 0%;
+    width: 90%;
+  }
+
+  #cursivaContacto {
+    font-style: italic;
+  }
+  #contenedorContacto {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #textoEncima {
+    font-size: 40px;
+    color: rgb(238, 238, 249);
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+  }
+
+  .imagenContacto {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    max-height: 40vh;
+    min-height: 30vh;
+    width: 100%;
+  }
+
+  /* Pagina Ayuda */
+  .divFormAyuda {
+    margin-top: 4%;
+    height: 70vh;
+  }
+
+  .formAyuda {
+    padding: 1%;
+    width: 75%;
+  }
+
+  .botonAyuda {
+    width: 100px;
+    margin: 2%;
+  }
+
+  #cursivaAyuda {
+    font-style: italic;
+  }
+
+  /* Pagina Iniciar Sesion  */
+
+  .divFormSesion {
+    height: 70vh;
+    width: 100%;
+  }
+  .formSesion {
+    padding: 2%;
+    width: 75%;
+  }
+
+  .botonSesion {
+    width: 100px;
+    margin: 2%;
+  }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 481px) and (max-width: 2500px) {
+  /* Pagina Inicio */
+  /* Decoracion header */
+  .navBarDeco {
+    background-image: url(../imagenes/fondoNav.jpg);
+    min-height: 10vh;
+    background-position: center;
+    background-size: 3000px;
+  }
+
+  .carousel-inner {
+    max-height: 60vh;
+    overflow: hidden;
+    position: relative;
+    bottom: 140%;
+  }
+
+  .articulos {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    padding: 3%;
+  }
+
+  /* Pagina Nosotros */
+  .formatoNosotros {
+    width: 80%;
+    padding-top: 3%;
+  }
+
+  /* Pagina Contacto */
+
+  .botonContacto {
+    @include botones;
+  }
+
+  .formContacto {
+    padding: 2%;
+    width: 60%;
+    max-width: 600px;
+  }
+
+  #cursivaContacto {
+    font-style: italic;
+  }
+  #contenedorContacto {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+
+  #textoEncima {
+    font-size: 60px;
+    color: rgb(238, 238, 249);
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+  }
+
+  .imagenContacto {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    max-height: 40vh;
+    min-height: 30vh;
+    width: 100%;
+  }
+
+  /* Pagina Ayuda */
+  .divFormAyuda {
+    margin-top: 4%;
+    height: 70vh;
+  }
+
+  .formAyuda {
+    padding: 1%;
+    width: 60%;
+    max-width: 600px;
+  }
+
+  .botonAyuda {
+    width: 100px;
+    margin: 2%;
+  }
+
+  #cursivaAyuda {
+    font-style: italic;
+  }
+
+  /* Pagina Iniciar Sesion  */
+  .divFormSesion {
+    height: 80vh;
+    width: 100%;
+  }
+
+  .formSesion {
+    padding: 2%;
+    width: 75%;
+    max-width: 600px;
+  }
+
+  .botonSesion {
+    width: 100px;
+    margin: 2%;
+  }
+
+  .imagenForm {
+    background-image: url(/imagenes/pelotalisa0.png);
+    background-size: 1750px;
+    background-repeat: no-repeat;
+    margin-left: 0%;
+    height: 100%;
+  }
+}

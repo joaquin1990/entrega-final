@@ -1,0 +1,63 @@
+/* Estilos Generales */
+/* Estilos Generales */
+$color1: rgb(195, 231, 148);
+$color-accordion-p: #eeeeee;
+$color-accordion: #f1f7ee;
+
+$colores: (
+  "color1": rgb(195, 231, 148),
+  "color-accordion-p": #eeeeee,
+  "color-accordion": #f1f7ee,
+);
+
+@mixin botones {
+  width: 100px;
+  margin: 2%;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../Oswald/Oswald-VariableFont_wght.ttf");
+}
+
+.botonSesion {
+  @extend .botonSesion;
+  border-radius: 10%;
+}
+
+* {
+  margin: 0;
+  padding: 0%;
+  text-decoration: none black;
+  font-family: Oswald;
+}
+
+.lineaHr {
+  color: beige;
+}
+
+main {
+  min-height: 80vh;
+}
+
+.navDeco {
+  height: 39px;
+  border-radius: 0 0.5em;
+  text-align: center;
+  &:hover {
+    background-color: map-get($map: $colores, $key: "color1");
+  }
+  &:active {
+    transform: scale(0.8);
+    transition-duration: 0.5s;
+  }
+}
+
+/* Decoracion del acorden de la paguna "Ayuda" */
+.fondoAccordion {
+  background-color: map-get($map: $colores, $key: "color-accordion");
+}
+
+.fondoAccordionP {
+  background-color: map-get($map: $colores, $key: "color-accordion-p");
+}

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
+    <!-- Keywords -->
+    <meta name="keywords" content="golf, clases, personalizadas, green, fee" />
+    <!-- Titulos -->
+    <title>Ayuda - Golf Academy</title>
+    <!-- Descripcion -->
+    <meta
+      name="description"
+      content="Formulario de ayuda y una serie de preguntas frecuentes como para brindarle informacion al cliente de forma rapida"
+    />
+    <!-- Estilos de Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- Link de iconos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Hoja de estilos propia -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link para las animaciones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Estilos de SCSS transpilados a CSS PURO -->
+    <link rel="stylesheet" href="css1/destino.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navBarDeco navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex"
+            ><img src="./imagenes/logoGolf2.png" width="50" height="50" />
+            <div class="h2 d-flex align-items-center m-2">Golf Academy</div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-3">
+              <li class="navDeco nav-item">
+                <a
+                  class="nav-link active h5"
+                  aria-current="page"
+                  href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="navDeco nav-item">
+                <a
+                  class="nav-link active h5"
+                  aria-current="page"
+                  href="nosotros.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="navDeco nav-item">
+                <a
+                  class="nav-link active h5"
+                  aria-current="page"
+                  href="contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="navDeco nav-item animate__animated animate__bounce">
+                <a
+                  class="nav-link active h5"
+                  aria-current="page"
+                  href="ayuda.html"
+                  >Ayuda</a
+                >
+              </li>
+              <li class="navDeco nav-item">
+                <a
+                  class="nav-link active h5"
+                  aria-current="page"
+                  href="iniciar-sesion.html"
+                  >Iniciar Sesion</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Inicio del form -->
+      <div
+        class="divFormAyuda my-5 d-flex justify-content-center align-items-center animate__animated animate__backInLeft"
+      >
+        <form class="m-2 formAyuda d-flex row card shadow">
+          <h2 class="text-center">Complete el formulario:</h2>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Nombre</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="form-floating text-center">
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              id="floatingTextarea2"
+              style="height: 100px"
+            ></textarea>
+            <label for="floatingTextarea2" class="w-100" id="cursivaAyuda"
+              >...¿Como podemos ayudarlo?...</label
+            >
+          </div>
+          <div class="d-flex justify-content-center">
+            <button type="submit" class="botonAyuda btn btn-primary m-2">
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
+      <!-- Fin del Form -->
+
+      <!-- Inicio del acordeon -->
+      <div class="my-5">
+        <h3 class="m-3 d-flex row my-4">Preguntas Frecuentes</h3>
+        <div class="accordion" id="questions">
+          <!-- Primer pregunta -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="fondoAccordionP accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#pregunta-uno"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                ¿Qué tipo de monedas se aceptan?
+              </button>
+            </h2>
+            <div
+              id="pregunta-uno"
+              class="fondoAccordion accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>Estamos abiertos al mundo!</strong>
+                Aceptamos cualquier tipo de moneda, incluso criptomonedas son
+                aceptadas como forma de pago
+              </div>
+            </div>
+          </div>
+          <!-- Segunda pregunta -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="fondoAccordionP accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#pregunta-dos"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                ¿Qué hoteles ofrecen green fee incluído en alojamiento?
+              </button>
+            </h2>
+            <div
+              id="pregunta-dos"
+              class="fondoAccordion accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Los hoteles que ofrecen este tipo de servicio son los que se
+                encuentran en la calle Av. Sarmiento.
+              </div>
+            </div>
+          </div>
+          <!-- Tercera pregunta -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="fondoAccordionP accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#pregunta-tres"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                ¿Se puede alquilar juego de palos de golf? ¿Cuáles son los
+                precios ?
+              </button>
+            </h2>
+            <div
+              id="pregunta-tres"
+              class="fondoAccordion accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Contamos con una gran variedad de juegos de palos para alquilar.
+                Dependiendo de la marca y modelo, que precio va a tener cada
+                juego. Los precios van desde los 30 a los 90 dolares por dia.
+              </div>
+            </div>
+          </div>
+          <!-- Cuarta pregunta -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="fondoAccordionP accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#pregunta-cuatro"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                ¿Se alquilan juegos de palos de golf para jugadores zurdos,
+                derechos y mujeres?
+              </button>
+            </h2>
+            <div
+              id="pregunta-cuatro"
+              class="fondoAccordion accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Efectivamente!! Contamos con juego de palos para todos, zurdos,
+                derechos, mujeres y niños, varias marcas y modelos.
+              </div>
+            </div>
+          </div>
+          <!-- Quinta pregunta  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header fondoAccordionP" id="headingFive">
+              <button
+                class="fondoAccordionP accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#pregunta-cinco"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                ¿Qué medidas preventivas para contener la propagación de
+                Covid-19 se aplicarán en Golf Academy?
+              </button>
+            </h2>
+            <div
+              id="pregunta-cinco"
+              class="fondoAccordion accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                En golf academy contamos con todas las medidas preventivas para
+                ambientes internos y externos que exige el gobierno. Ademas
+                contamos con desinfectadores de aire ubicados en cada salon de
+                practica.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fin del acordeon -->
+    </main>
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <nav class="row">
+          <!-- Nombre de la marca -->
+          <p
+            class="col-12 col-lg-3 text-reset text-uppercase d-flex justify-content-center justify-content-lg-start"
+          >
+            Golf Academy
+          </p>
+          <!-- Redes Sociales -->
+          <ul
+            class="col-lg-9 col-sm-12 list-unstyled d-flex justify-content-center justify-content-lg-end"
+          >
+            <li class="font-weight-bold text-uppercase"></li>
+            <li class="d-flex justify-content-between">
+              <a href="https://www.facebook.com/" class="text-reset m-2"
+                ><i class="fab fa-facebook-square"></i>/GolfAcademy</a
+              >
+              <a href="https://www.instagram.com/" class="text-reset m-2"
+                ><i class="fab fa-instagram"></i>/GolfAcademy</a
+              >
+              <a href="https://web.whatsapp.com/" class="text-reset m-2"
+                ><i class="fab fa-whatsapp"></i>099741112</a
+              >
+            </li>
+          </ul>
+          <hr class="lineaHr" />
+          <p class="text-center">
+            &copy; 2022 All Rights Reserved &reg; Golf Academy & Co.
+          </p>
+        </nav>
+      </div>
+    </footer>
+    <!-- Script de Bootstrap -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

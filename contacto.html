@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
+    <!-- Keywords -->
+    <meta name="keywords" content="golf, clases, personalizadas, green, fee" />
+    <!-- Titulos -->
+    <title>Contacto - Golf Academy</title>
+    <!-- Descripcion -->
+    <meta
+      name="description"
+      content="Aparece un formulario de contacto para el cliente, y informacion de la ubicacion del lugar, un mail y telefonos de contacto"
+    />
+    <!-- Estilos de Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- Link de iconos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Hoja de estilos propia -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link para las animaciones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Estilos de SCSS transpilados a CSS PURO -->
+    <link rel="stylesheet" href="css1/destino.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navBarDeco navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex"
+            ><img src="./imagenes/logoGolf2.png" width="50" height="50" />
+            <div class="h2 d-flex align-items-center m-2">Golf Academy</div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-3">
+              <li class="navDeco nav-item">
+                <a
+                  class="nav-link active h5"
+                  aria-current="page"
+                  href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="navDeco nav-item">
+                <a
+                  class="nav-link active h5"
+                  aria-current="page"
+                  href="nosotros.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="navDeco nav-item animate__animated animate__bounce">
+                <a
+                  class="nav-link active h5"
+                  aria-current="page"
+                  href="contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="navDeco nav-item">
+                <a
+                  class="nav-link active h5"
+                  aria-current="page"
+                  href="ayuda.html"
+                  >Ayuda</a
+                >
+              </li>
+              <li class="navDeco nav-item">
+                <a
+                  class="nav-link active h5"
+                  aria-current="page"
+                  href="iniciar-sesion.html"
+                  >Iniciar Sesion</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="contenedorContacto">
+        <img
+          class="imagenContacto"
+          src="/imagenes/imagen-contacto200.jpg"
+          alt="Imagen Fondo Pagina contacto"
+        />
+        <div id="textoEncima">Contactenos</div>
+      </div>
+      <div class="container row">
+        <!-- Inicio del form -->
+        <div
+          class="divFormContacto col-lg-9 col-sm-12 col-xs-12 my-4 d-flex justify-content-center"
+        >
+          <form class="m-3 formContacto d-flex row card shadow">
+            <h2 class="text-center">¿Todavia no eres miembro?</h2>
+            <h3 class="text-center">Registrate!</h3>
+
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nombre</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="form-floating text-center">
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                id="floatingTextarea2"
+                style="height: 100px"
+              ></textarea>
+              <label for="floatingTextarea2" class="w-100" id="cursivaContacto">
+                ...escriba aqui su mensaje...</label
+              >
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="submit" class="botonContacto btn btn-primary">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+        <!-- Fin del Form -->
+
+        <div
+          class="card shadow d-flex my-3 justify-content-center col-lg-3 col-xs-12 col-sm-12"
+        >
+          <div class="card-body">
+            <h5 class="card-title">Detalles de contacto:</h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              Somos una academia de practica de golf pensada para todo tipo de
+              deportista, desde amateur hasta profesional.
+            </h6>
+            <p class="card-text">
+              <i class="fa-solid fa-location-dot"></i>
+              Ruta Interbalnearia Km. 23.900 Camino de los Horneros 220, Ciudad
+              de la Costa
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-envelope"> </i> socios@gacademy.com
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-phone"> </i> 091345321 / 26433498
+            </p>
+            <a href="#" class="card-link">Mapa</a>
+            <a href="#" class="card-link">Mas info</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <nav class="row">
+          <!-- Nombre de la marca -->
+          <p
+            class="col-12 col-lg-3 text-reset text-uppercase d-flex justify-content-center justify-content-lg-start"
+          >
+            Golf Academy
+          </p>
+          <!-- Redes Sociales -->
+          <ul
+            class="col-lg-9 col-sm-12 list-unstyled d-flex justify-content-center justify-content-lg-end"
+          >
+            <li class="font-weight-bold text-uppercase"></li>
+            <li class="d-flex justify-content-between">
+              <a href="https://www.facebook.com/" class="text-reset m-2"
+                ><i class="fab fa-facebook-square"></i>/GolfAcademy</a
+              >
+              <a href="https://www.instagram.com/" class="text-reset m-2"
+                ><i class="fab fa-instagram"></i>/GolfAcademy</a
+              >
+              <a href="https://web.whatsapp.com/" class="text-reset m-2"
+                ><i class="fab fa-whatsapp"></i>099741112</a
+              >
+            </li>
+          </ul>
+          <hr class="lineaHr" />
+          <p class="text-center">
+            &copy; 2022 All Rights Reserved &reg; Golf Academy & Co.
+          </p>
+        </nav>
+      </div>
+    </footer>
+    <!-- Script de Bootstrap -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
