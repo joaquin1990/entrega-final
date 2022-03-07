@@ -3,9 +3,6 @@
   font-family: "Oswald";
   src: url("../Oswald/Oswald-VariableFont_wght.ttf"); }
 
-.botonSesion {
-  border-radius: 10%; }
-
 * {
   margin: 0;
   padding: 0%;
@@ -35,15 +32,64 @@ main {
 .fondoAccordionP {
   background-color: #eeeeee; }
 
+/* Pagina Inicio */
+.navBarDeco {
+  background-image: url(../imagenes/fondoNav.jpg);
+  min-height: 10vh;
+  background-position: center;
+  background-size: 3000px; }
+
+.margenMarcaFooter {
+  margin-top: 6px; }
+
+/* Pagina Nosotros */
+.formatoNosotros {
+  width: 80%;
+  padding-top: 3%; }
+
+/* Pagina Contacto */
+.botonContacto {
+  width: 100px;
+  margin: 2%; }
+
+#cursivaContacto {
+  font-style: italic; }
+
+.imagenContacto {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  max-height: 40vh;
+  min-height: 30vh;
+  width: 100%; }
+
+/* Pagina Ayuda */
+.divFormAyuda {
+  margin-top: 4%;
+  height: 70vh; }
+
+.botonAyuda {
+  width: 100px;
+  margin: 2%; }
+
+#cursivaAyuda {
+  font-style: italic; }
+
+/* Pagina Iniciar Sesion */
+.botonSesion {
+  border-radius: 10%; }
+
+.divFormSesion {
+  height: 80vh;
+  width: 100%; }
+
+.botonSesion {
+  width: 100px;
+  margin: 2%; }
+
 /* MOBILE */
 @media only screen and (min-width: 0px) and (max-width: 480px) {
   /* Pagina Inicio */
-  /* Decoracion header */
-  .navBarDeco {
-    background-image: url(../imagenes/fondoNav.jpg);
-    min-height: 10vh;
-    background-position: center;
-    background-size: 3000px; }
   .carousel-inner {
     max-height: 40vh;
     overflow: hidden;
@@ -54,14 +100,7 @@ main {
     flex-direction: column;
     margin: 1%;
     padding: 3%; }
-  /* Pagina Nosotros */
-  .formatoNosotros {
-    width: 80%;
-    padding-top: 3%; }
   /* Pagina Contacto */
-  .botonContacto {
-    width: 100px;
-    margin: 2%; }
   .divFormContacto {
     width: 100%;
     margin: 0;
@@ -72,8 +111,6 @@ main {
     padding: 0%;
     margin: 0%;
     width: 90%; }
-  #cursivaContacto {
-    font-style: italic; }
   #contenedorContacto {
     position: relative;
     display: inline-block;
@@ -85,51 +122,24 @@ main {
     top: 30%;
     left: 0;
     width: 100%; }
-  .imagenContacto {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    max-height: 40vh;
-    min-height: 30vh;
-    width: 100%; }
   .formatoCard {
     margin-top: 10px; }
   /* Pagina Ayuda */
-  .divFormAyuda {
-    margin-top: 4%;
-    height: 70vh; }
   .formAyuda {
     padding: 1%;
     width: 75%; }
-  .botonAyuda {
-    width: 100px;
-    margin: 2%; }
-  #cursivaAyuda {
-    font-style: italic; }
   /* Pagina Iniciar Sesion  */
-  .divFormSesion {
-    height: 70vh;
-    width: 100%; }
   .formSesion {
     padding: 2%;
-    width: 75%; }
-  .botonSesion {
-    width: 100px;
-    margin: 2%; } }
+    width: 75%; } }
 
 /* DESKTOP */
 @media only screen and (min-width: 481px) and (max-width: 2500px) {
   /* Pagina Inicio */
-  /* Decoracion header */
   .margenLogoTitulo {
     margin-left: 25px; }
   .margenNavbar {
     margin-right: 50px; }
-  .navBarDeco {
-    background-image: url(../imagenes/fondoNav.jpg);
-    min-height: 10vh;
-    background-position: center;
-    background-size: 3000px; }
   .carousel-inner {
     max-height: 60vh;
     overflow: hidden;
@@ -142,22 +152,11 @@ main {
     margin-left: 50px;
     margin-right: 50px;
     padding: 3%; }
-  .margenMarcaFooter {
-    margin-top: 6px; }
-  /* Pagina Nosotros */
-  .formatoNosotros {
-    width: 80%;
-    padding-top: 3%; }
   /* Pagina Contacto */
-  .botonContacto {
-    width: 100px;
-    margin: 2%; }
   .formContacto {
     padding: 2%;
     width: 60%;
     max-width: 600px; }
-  #cursivaContacto {
-    font-style: italic; }
   #contenedorContacto {
     position: relative;
     display: inline-block;
@@ -170,39 +169,18 @@ main {
     top: 30%;
     left: 0;
     width: 100%; }
-  .imagenContacto {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    max-height: 40vh;
-    min-height: 30vh;
-    width: 100%; }
   .formatoCard {
     margin-top: 40px; }
   /* Pagina Ayuda */
-  .divFormAyuda {
-    margin-top: 4%;
-    height: 70vh; }
   .formAyuda {
     padding: 1%;
     width: 60%;
     max-width: 600px; }
-  .botonAyuda {
-    width: 100px;
-    margin: 2%; }
-  #cursivaAyuda {
-    font-style: italic; }
   /* Pagina Iniciar Sesion  */
-  .divFormSesion {
-    height: 80vh;
-    width: 100%; }
   .formSesion {
     padding: 2%;
     width: 75%;
     max-width: 600px; }
-  .botonSesion {
-    width: 100px;
-    margin: 2%; }
   .imagenForm {
     background-image: url(/imagenes/pelotalisa0.png);
     background-size: 1750px;

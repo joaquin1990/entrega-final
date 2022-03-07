@@ -19,11 +19,6 @@ $colores: (
   src: url("../Oswald/Oswald-VariableFont_wght.ttf");
 }
 
-.botonSesion {
-  @extend .botonSesion;
-  border-radius: 10%;
-}
-
 * {
   margin: 0;
   padding: 0%;
@@ -59,4 +54,71 @@ main {
 
 .fondoAccordionP {
   background-color: map-get($map: $colores, $key: "color-accordion-p");
+}
+
+/* Pagina Inicio */
+.navBarDeco {
+  background-image: url(../imagenes/fondoNav.jpg);
+  min-height: 10vh;
+  background-position: center;
+  background-size: 3000px;
+}
+
+.margenMarcaFooter {
+  margin-top: 6px;
+}
+
+/* Pagina Nosotros */
+.formatoNosotros {
+  width: 80%;
+  padding-top: 3%;
+}
+
+/* Pagina Contacto */
+.botonContacto {
+  @include botones;
+}
+
+#cursivaContacto {
+  font-style: italic;
+}
+
+.imagenContacto {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  max-height: 40vh;
+  min-height: 30vh;
+  width: 100%;
+}
+
+/* Pagina Ayuda */
+.divFormAyuda {
+  margin-top: 4%;
+  height: 70vh;
+}
+
+.botonAyuda {
+  width: 100px;
+  margin: 2%;
+}
+
+#cursivaAyuda {
+  font-style: italic;
+}
+
+/* Pagina Iniciar Sesion */
+.botonSesion {
+  @extend .botonSesion;
+  border-radius: 10%;
+}
+
+.divFormSesion {
+  height: 80vh;
+  width: 100%;
+}
+
+.botonSesion {
+  width: 100px;
+  margin: 2%;
 }
