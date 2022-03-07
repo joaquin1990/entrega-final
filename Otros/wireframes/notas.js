@@ -3,7 +3,7 @@
 // -
 // - Hacer un logo real con algun programa.
 // - Hacer que las animaciones del nav no funcionen para cuando se hace chico el
-//  menu chico, capaz hacer una media querie intermedia para eso.
+//   menu chico, capaz hacer una media querie intermedia para eso.
 // - Modificar la pagina de estilos generales, y las cosas que apliquen para los dos
 // -
 // - Ver after de github de nuevo para anotar los pasos para pasarla pag a netlify.
@@ -16,13 +16,9 @@
 // - Achicar la imagen del logo (hacer el logo?) (chequearla en todas las paginas).
 // - Ver de nuevo las clases de dominio y hosting, resumirlas bien en el resumen.
 // - Sacar los wireframes de la carpeta, y sacar el codigo de js con las notas tambien para el proyecto final.
-// - Pasar los piques del pipe a y el resto de las cosas a retocar al js de notas.
 // - Ver que hacer con las imagenes en el carrousel, si partirlo en dos o que hacer.
-// - Margenes en ambos lados de la pag iguales (probar clase container a ver que pasa)
 // - Separar loguitos de footer, separarlos con clase me-1 en los i como esta hecho en la pagina de inicio.
 // - hover a los links de abajo para que se subrayen cuando estamos encima.
-// - Mas cariño a los articles de inicio?
-// - Alinear redes sociales y golf academy en el footer que queden igual altura etc.
 // -
 // -
 // -
