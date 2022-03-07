@@ -1,5 +1,4 @@
 /* Estilos Generales */
-/* Estilos Generales */
 $color1: rgb(195, 231, 148);
 $color-accordion-p: #eeeeee;
 $color-accordion: #f1f7ee;
@@ -60,4 +59,9 @@ main {
 
 .fondoAccordionP {
   background-color: map-get($map: $colores, $key: "color-accordion-p");
+}
+
+/* Pagina Contacto */
+.formatoCard {
+  margin-top: 20px;
 }

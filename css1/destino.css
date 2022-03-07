@@ -1,5 +1,4 @@
 /* Estilos Generales */
-/* Estilos Generales */
 @font-face {
   font-family: "Oswald";
   src: url("../Oswald/Oswald-VariableFont_wght.ttf"); }
@@ -35,6 +34,10 @@ main {
 
 .fondoAccordionP {
   background-color: #eeeeee; }
+
+/* Pagina Contacto */
+.formatoCard {
+  margin-top: 20px; }
 
 /* MOBILE */
 @media only screen and (min-width: 0px) and (max-width: 480px) {
