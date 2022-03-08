@@ -13,5 +13,5 @@
 // - hover a los links de abajo para que se subrayen cuando estamos encima.
 // - Modificar la imagen en contacto como lo habia explicado el profesor, poniendo dos imagenes de
 // - distintos tamaños
-// -
+// - Alinear en footer la marca y las redes que no estan del todo bien todavia
 // -
