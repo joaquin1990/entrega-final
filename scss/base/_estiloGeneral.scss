@@ -68,6 +68,11 @@ main {
   margin-top: 6px;
 }
 
+.efectoHover:hover {
+  transform: scale(1.08);
+  transition: 700ms;
+}
+
 /* Pagina Nosotros */
 .formatoNosotros {
   width: 80%;

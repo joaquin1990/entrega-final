@@ -42,6 +42,10 @@ main {
 .margenMarcaFooter {
   margin-top: 6px; }
 
+.efectoHover:hover {
+  transform: scale(1.08);
+  transition: 700ms; }
+
 /* Pagina Nosotros */
 .formatoNosotros {
   width: 80%;
@@ -187,3 +191,7 @@ main {
     background-repeat: no-repeat;
     margin-left: 0%;
     height: 100%; } }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .animate__bounce {
+    display: none; } }

@@ -1,7 +1,6 @@
 /* MOBILE */
 @media only screen and (min-width: 0px) and (max-width: 480px) {
   /* Pagina Inicio */
-
   .carousel-inner {
     max-height: 40vh;
     overflow: hidden;
@@ -144,5 +143,12 @@
     background-repeat: no-repeat;
     margin-left: 0%;
     height: 100%;
+  }
+}
+
+// Para evitar las animaciones en pantallas intermedias y pequeñas
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .animate__bounce {
+    display: none;
   }
 }
