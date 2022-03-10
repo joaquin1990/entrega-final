@@ -1,5 +1,4 @@
 // -
-// - Alinear en footer la marca y las redes que no estan del todo bien todavia
 // - Hover a los links de abajo para que se subrayen cuando estamos encima.
 // - Hacer que el navbar quede fixed siempre?
 // -

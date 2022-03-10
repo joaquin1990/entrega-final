@@ -47,6 +47,14 @@ main {
   }
 }
 
+.margenMarcaFooter {
+  margin-top: 8px;
+}
+.text-reset:hover {
+  transform: scale(1.03);
+  transition: 700ms;
+}
+
 /* Decoracion del acorden de la paguna "Ayuda" */
 .fondoAccordion {
   background-color: map-get($map: $colores, $key: "color-accordion");
@@ -62,10 +70,6 @@ main {
   min-height: 10vh;
   background-position: center;
   background-size: 3000px;
-}
-
-.margenMarcaFooter {
-  margin-top: 8px;
 }
 
 .efectoHover:hover {
