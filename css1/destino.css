@@ -9,6 +9,9 @@
   text-decoration: none black;
   font-family: Oswald; }
 
+body {
+  padding-top: 76px; }
+
 .lineaHr {
   color: beige; }
 
@@ -44,7 +47,12 @@ main {
   background-image: url(../imagenes/fondoNav.webp);
   min-height: 10vh;
   background-position: center;
-  background-size: 3000px; }
+  background-size: 3000px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0; }
 
 .efectoHover:hover {
   transform: scale(1.08);

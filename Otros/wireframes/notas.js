@@ -1,7 +1,6 @@
 // -
-// - Hover a los links de abajo para que se subrayen cuando estamos encima.
 // - Hacer que el navbar quede fixed siempre?
-// -
+// - Agregarle un href a la marca en el footer, asi no queda al pedo el hover
 // -
 // -
 // - Modificar la imagen en contacto como lo habia explicado el profesor, poniendo dos imagenes de

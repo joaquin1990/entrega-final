@@ -25,6 +25,9 @@ $colores: (
   text-decoration: none black;
   font-family: Oswald;
 }
+body {
+  padding-top: 76px;
+}
 
 .lineaHr {
   color: beige;
@@ -70,6 +73,14 @@ main {
   min-height: 10vh;
   background-position: center;
   background-size: 3000px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.container-fluid {
 }
 
 .efectoHover:hover {
