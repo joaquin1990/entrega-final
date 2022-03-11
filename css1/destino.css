@@ -42,6 +42,11 @@ main {
 .fondoAccordionP {
   background-color: #eeeeee; }
 
+.socialMediaLink {
+  text-decoration: none; }
+  .socialMediaLink:hover {
+    text-decoration: underline; }
+
 /* Pagina Inicio */
 .navBarDeco {
   background-image: url(../imagenes/fondoNav.webp);
@@ -75,9 +80,8 @@ main {
   position: relative;
   display: inline-block;
   text-align: center;
-  max-height: 40vh;
   min-height: 30vh;
-  width: 100%; }
+  object-fit: cover; }
 
 /* Pagina Ayuda */
 .divFormAyuda {
