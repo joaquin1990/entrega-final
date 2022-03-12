@@ -33,6 +33,11 @@
     font-style: italic;
   }
 
+  .formatoform {
+    width: 80%;
+    padding: 30px;
+  }
+
   .formatoCard {
     margin-top: 10px;
   }
@@ -55,14 +60,6 @@
 /* DESKTOP */
 @media only screen and (min-width: 481px) and (max-width: 2500px) {
   /* Pagina Inicio */
-
-  // .margenLogoTitulo {
-  //   margin-left: 60px;
-  // }
-
-  // .margenNavbar {
-  //   margin-right: 65px;
-  // }
 
   .carousel-inner {
     max-height: 60vh;
@@ -122,17 +119,15 @@
   /* Pagina Ayuda */
 
   .formAyuda {
-    padding: 1%;
     width: 60%;
-    max-width: 600px;
+    padding: 30px;
   }
 
   /* Pagina Iniciar Sesion  */
 
   .formSesion {
-    padding: 2%;
-    width: 75%;
-    max-width: 600px;
+    width: 60%;
+    padding: 30px;
   }
 
   .imagenForm {

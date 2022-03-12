@@ -10,7 +10,7 @@
   font-family: Oswald; }
 
 body {
-  padding-top: 76px; }
+  padding-top: 88px; }
 
 .lineaHr {
   color: beige; }
@@ -128,6 +128,9 @@ main {
     left: 0;
     width: 100%;
     font-style: italic; }
+  .formatoform {
+    width: 80%;
+    padding: 30px; }
   .formatoCard {
     margin-top: 10px; }
   /* Pagina Ayuda */
@@ -180,14 +183,12 @@ main {
     padding: 30px; }
   /* Pagina Ayuda */
   .formAyuda {
-    padding: 1%;
     width: 60%;
-    max-width: 600px; }
+    padding: 30px; }
   /* Pagina Iniciar Sesion  */
   .formSesion {
-    padding: 2%;
-    width: 75%;
-    max-width: 600px; }
+    width: 60%;
+    padding: 30px; }
   .imagenForm {
     background-image: url(/imagenes/pelotalisa0.png);
     background-size: 1750px;
