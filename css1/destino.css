@@ -132,7 +132,9 @@ main {
     width: 90%;
     padding: 20px; }
   .formatoCard {
-    margin-top: 10px; }
+    margin-top: 10px;
+    width: 95%;
+    margin-bottom: 40px; }
   /* Pagina Ayuda */
   .formAyuda {
     padding: 1%;
