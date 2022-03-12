@@ -10,7 +10,7 @@
   font-family: Oswald; }
 
 body {
-  padding-top: 76px; }
+  padding-top: 88px; }
 
 .lineaHr {
   color: beige; }
@@ -27,9 +27,6 @@ main {
   .navDeco:active {
     transform: scale(0.8);
     transition-duration: 0.5s; }
-
-.margenMarcaFooter {
-  margin-top: 8px; }
 
 .text-reset:hover {
   transform: scale(1.03);
@@ -64,10 +61,6 @@ main {
   transition: 700ms; }
 
 /* Pagina Nosotros */
-.formatoNosotros {
-  width: 80%;
-  padding-top: 3%; }
-
 /* Pagina Contacto */
 .botonContacto {
   width: 100px;
@@ -123,27 +116,18 @@ main {
     margin: 1%;
     padding: 3%; }
   /* Pagina Contacto */
-  .divFormContacto {
-    width: 100%;
-    margin: 0;
-    margin-left: 1px;
-    margin-right: 1px;
-    padding: 0; }
-  .formContacto {
-    padding: 0%;
-    margin: 0%;
-    width: 90%; }
   #contenedorContacto {
     position: relative;
     display: inline-block;
     text-align: center; }
   #textoEncima {
-    font-size: 40px;
+    font-size: 35px;
     color: #eeeef9;
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 0;
-    width: 100%; }
+    width: 100%;
+    font-style: italic; }
   .formatoCard {
     margin-top: 10px; }
   /* Pagina Ayuda */
@@ -158,10 +142,6 @@ main {
 /* DESKTOP */
 @media only screen and (min-width: 481px) and (max-width: 2500px) {
   /* Pagina Inicio */
-  .margenLogoTitulo {
-    margin-left: 60px; }
-  .margenNavbar {
-    margin-right: 65px; }
   .carousel-inner {
     max-height: 60vh;
     overflow: hidden;
@@ -170,10 +150,8 @@ main {
   .articulos {
     display: flex;
     flex-direction: column;
-    margin: 1%;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 3%; }
+    margin-top: 10px;
+    margin-bottom: 10px; }
   /* Pagina Contacto */
   .formContacto {
     padding: 2%;
@@ -185,14 +163,21 @@ main {
     text-align: center;
     width: 100%; }
   #textoEncima {
-    font-size: 60px;
+    font-size: 50px;
     color: #eeeef9;
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 0;
-    width: 100%; }
+    width: 100%;
+    font-style: italic; }
   .formatoCard {
-    margin-top: 40px; }
+    margin-top: 5px;
+    text-align: center;
+    padding: 30px;
+    min-width: 400px; }
+  .formatoform {
+    width: 60%;
+    padding: 30px; }
   /* Pagina Ayuda */
   .formAyuda {
     padding: 1%;

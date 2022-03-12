@@ -17,20 +17,6 @@
 
   /* Pagina Contacto */
 
-  .divFormContacto {
-    width: 100%;
-    margin: 0;
-    margin-left: 1px;
-    margin-right: 1px;
-    padding: 0;
-  }
-
-  .formContacto {
-    padding: 0%;
-    margin: 0%;
-    width: 90%;
-  }
-
   #contenedorContacto {
     position: relative;
     display: inline-block;
@@ -38,12 +24,13 @@
   }
 
   #textoEncima {
-    font-size: 40px;
+    font-size: 35px;
     color: rgb(238, 238, 249);
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 0;
     width: 100%;
+    font-style: italic;
   }
 
   .formatoCard {
@@ -69,13 +56,13 @@
 @media only screen and (min-width: 481px) and (max-width: 2500px) {
   /* Pagina Inicio */
 
-  .margenLogoTitulo {
-    margin-left: 60px;
-  }
+  // .margenLogoTitulo {
+  //   margin-left: 60px;
+  // }
 
-  .margenNavbar {
-    margin-right: 65px;
-  }
+  // .margenNavbar {
+  //   margin-right: 65px;
+  // }
 
   .carousel-inner {
     max-height: 60vh;
@@ -87,10 +74,12 @@
   .articulos {
     display: flex;
     flex-direction: column;
-    margin: 1%;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 3%;
+    // margin: 1%;
+    // margin-left: 50px;
+    // margin-right: 50px;
+    // padding: 3%;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   /* Pagina Contacto */
@@ -109,16 +98,25 @@
   }
 
   #textoEncima {
-    font-size: 60px;
+    font-size: 50px;
     color: rgb(238, 238, 249);
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 0;
     width: 100%;
+    font-style: italic;
   }
 
   .formatoCard {
-    margin-top: 40px;
+    margin-top: 5px;
+    text-align: center;
+    padding: 30px;
+    min-width: 400px;
+  }
+
+  .formatoform {
+    width: 60%;
+    padding: 30px;
   }
 
   /* Pagina Ayuda */

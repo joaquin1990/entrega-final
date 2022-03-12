@@ -26,7 +26,7 @@ $colores: (
   font-family: Oswald;
 }
 body {
-  padding-top: 76px;
+  padding-top: 88px;
 }
 
 .lineaHr {
@@ -50,9 +50,9 @@ main {
   }
 }
 
-.margenMarcaFooter {
-  margin-top: 8px;
-}
+// .margenMarcaFooter {
+//   margin-top: 8px;
+// }
 .text-reset:hover {
   transform: scale(1.03);
   transition: 700ms;
@@ -92,10 +92,10 @@ main {
 }
 
 /* Pagina Nosotros */
-.formatoNosotros {
-  width: 80%;
-  padding-top: 3%;
-}
+// .formatoNosotros {
+//   width: 80%;
+//   padding-top: 3%;
+// }
 
 /* Pagina Contacto */
 .botonContacto {
